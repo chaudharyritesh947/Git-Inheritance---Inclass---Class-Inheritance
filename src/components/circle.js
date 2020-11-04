@@ -2,9 +2,8 @@
 
 // declare class
 
-
-import shape from './shape';
-class circle extends shape{
+const shape = require('./shape');
+class circle extends shape.shape{
     constructor(){
         super();
     }

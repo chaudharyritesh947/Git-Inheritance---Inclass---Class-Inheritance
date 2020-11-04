@@ -1,7 +1,7 @@
 // declare class
 
 // export class using module.exports
-export default class shape{
+ class shape{
     constructor(color){
         this.color =color;
     }
@@ -14,3 +14,5 @@ export default class shape{
         console.log("Calculating the damm area!");
     }
 }
+
+module.exports = shape;
